@@ -227,11 +227,11 @@ class App extends Component {
         <div className="App">
           <ul className="ul">
             <button><NavLink to="/" exact activeStyle={
-              { color: 'green' }
+              { color: 'white'}
             }>Home</NavLink></button>
             <button><NavLink to="/play" exact activeStyle={
-              { color: 'green' }
-            }>play</NavLink></button>
+              { color: 'white'}
+            }>Play</NavLink></button>
           </ul>
 
 
@@ -241,7 +241,7 @@ class App extends Component {
               return (
                 <div>
                   <img src={Logo} width="180" height="180" alt="logo" />
-
+                  
                   <h1>Rules of the Game</h1>
                   <ol>
                     <li className="list">

@@ -1,8 +1,11 @@
-
-
-.ul{
-  background-color: #74cfeb;
+body{
+  background-image: url("images/bg.gif");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 300px;
 }
+
+
 .App {
   text-align: center;
 }
@@ -16,12 +19,12 @@
 }
 
 button {
-    background-color: #5689db;
-    border: 1px solid #5689db;
-    border-radius: 3px;
+    background-color: #e1b0f5;
+    border: 1px solid #3b3a3a;
+    border-width: 0.10cm;
+    border-radius: 10px;
     display: inline-block;
-    color: #FFF;
-    font-size: 12pt;
+    font-size: 20pt;
     padding: 7px 28px;
     text-decoration: none;
     margin: 5px;
@@ -32,14 +35,12 @@ button {
 
 button:hover {
     background-color: lightblue;
-    font-size: 14pt;
+    font-size: pt;
 }
 
 .Board {
   display: flex;
 }
-
-
 
 .Hole {
   padding: 5px;
@@ -84,8 +85,10 @@ button:hover {
   margin-left: 29%;
   text-align: left;
   padding: 5px;
-  font-size: large;
+  font-size:larger;
+  font-weight:500;
 }
+
 
 
 
